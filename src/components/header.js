@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types'
+import { FaGithub } from 'react-icons/fa'
 
 
 const Header = ({ title, onAdd, showAdd }) => {
     return (
-
         <header className="header">
             <h1>{title}</h1>
+            <FaGithub />
         </header>
     )
 }
