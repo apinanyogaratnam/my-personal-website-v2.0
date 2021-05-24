@@ -7,12 +7,14 @@ const Header = ({ title, onAdd, showAdd }) => {
     return (
         <header className="header">
             <h1>{title}</h1>
-            <FaLinkedin />
-            <FaGithubSquare />
-            <FaFacebookSquare />
-            <FaInstagramSquare />
-            <FaTwitterSquare />
-            <MdEmail />
+                <div className="header-container">
+                    <FaLinkedin />
+                    <FaGithubSquare />
+                    <FaFacebookSquare />
+                    <FaInstagramSquare />
+                    <FaTwitterSquare />
+                    <MdEmail />
+                </div>
         </header>
     )
 }

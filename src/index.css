@@ -26,3 +26,7 @@ code {
   background: #97c1f3;
 }
 
+.header-container {
+  height: 100px;
+  padding: 5px;
+}
