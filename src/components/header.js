@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { FaGithub, FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa'
+import { FaGithub, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
 
 
 const Header = ({ title, onAdd, showAdd }) => {
@@ -9,6 +9,7 @@ const Header = ({ title, onAdd, showAdd }) => {
             <FaGithub />
             <FaFacebookSquare />
             <FaInstagramSquare />
+            <FaTwitterSquare />
         </header>
     )
 }
