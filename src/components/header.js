@@ -1,11 +1,20 @@
-import React from 'react'
+import PropTypes from 'prop-types'
+// import Button form './Button'
 
-const header = () => {
+const Header = ({ title, onAdd, showAdd }) => {
     return (
-        <div>
-            
-        </div>
+        
+        <header className="header">
+            <h1>{title}</h1>
+        </header>
     )
 }
 
-export default header
+Header.defaultProps = {
+    title: 'Apinan Yogaratnam',
+}
+
+Header.propTypes = {
+    title: PropTypes.string.isRequired,
+}
+export default Header
