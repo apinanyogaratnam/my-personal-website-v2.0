@@ -5,9 +5,9 @@ import { MdEmail } from 'react-icons/md'
 
 const Header = ({ title, onAdd, showAdd }) => {
     return (
-        <header className="header">
+        <header className="header-icon">
             <h1>{title}</h1>
-                <div className="header-container">
+                <div className="header-icon">
                     <FaLinkedin />
                     <FaGithubSquare />
                     <FaFacebookSquare />
