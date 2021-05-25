@@ -33,7 +33,12 @@ code {
 }
 
 .resume-container {
-  height: 100px;
-  width: 175px;
   background-color: rgb(80, 80, 243);
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
 }
