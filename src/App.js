@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './components/header'
 import Resume from './components/resume'
+import React from 'react';
+
 
 function App() {
   return (

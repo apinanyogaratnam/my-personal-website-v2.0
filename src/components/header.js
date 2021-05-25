@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import { FaGithubSquare, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin, FaMailBulk } from 'react-icons/fa'
+import React from 'react';
 
 
 const Header = ({ title, onAdd, showAdd }) => {

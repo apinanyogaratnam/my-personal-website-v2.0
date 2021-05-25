@@ -6,7 +6,9 @@ const Resume = () => {
     return (
         <div className="resume-container">
             <h2>CV</h2>
-            <AiFillFolderOpen size="5em"/>
+            <IconButton>
+            <AiFillFolderOpen color="black" size="5em"/>
+            </IconButton>
         </div>
     )
 }
