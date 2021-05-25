@@ -7,7 +7,9 @@ const Resume = () => {
         <div className="resume-container">
             <h2>CV</h2>
             <IconButton>
-            <AiFillFolderOpen color="black" size="5em"/>
+                <a href="https://docs.google.com/document/d/1F_YVKP-nQvnLS7id_M-wbTrUz2GtYjNOo9oeTcnDTzQ/edit?usp=sharing">
+                    <AiFillFolderOpen color="black" size="5em"/>
+                </a>
             </IconButton>
         </div>
     )
