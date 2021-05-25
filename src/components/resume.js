@@ -1,11 +1,11 @@
 import React from 'react'
 
-const resume = () => {
+const Resume = () => {
     return (
         <div className="resume-container">
-            
+            <h2>My Resume</h2>
         </div>
     )
 }
 
-export default resume
+export default Resume
