@@ -2,7 +2,7 @@ import React from 'react'
 
 const resume = () => {
     return (
-        <div>
+        <div className="resume-container">
             
         </div>
     )
