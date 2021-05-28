@@ -2,8 +2,6 @@ import PropTypes from 'prop-types'
 import { FaGithubSquare, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin, FaMailBulk } from 'react-icons/fa'
 import React from 'react';
 import { IconContext } from 'react-icons/lib';
-import { IconButton } from '@material-ui/core';
-
 
 const Header = ({ title, onAdd, showAdd }) => {
     return (

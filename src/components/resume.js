@@ -7,7 +7,7 @@ const Resume = () => {
         <div className="resume-container">
             <h2>CV</h2>
             <IconButton>
-                <a href="https://docs.google.com/document/d/1F_YVKP-nQvnLS7id_M-wbTrUz2GtYjNOo9oeTcnDTzQ/edit?usp=sharing">
+                <a onClick={()=> window.open("https://docs.google.com/document/d/1F_YVKP-nQvnLS7id_M-wbTrUz2GtYjNOo9oeTcnDTzQ/edit?usp=sharing", "_blank")}>
                     <AiFillFolderOpen color="white" size="5em"/>
                 </a>
             </IconButton>
@@ -16,3 +16,5 @@ const Resume = () => {
 }
 
 export default Resume
+
+// edit resume side projects with new image compression tool
