@@ -1,5 +1,8 @@
 @import url('//fonts.googleapis.com/css?family=Electrolize');
 
+h1 {
+  color: white;
+}
 
 body {
   margin: 0;
@@ -8,6 +11,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0a35f1;
+  font-family: 'Electrolize', sans-serif;
+  color: white;
 }
 
 code {
@@ -23,7 +29,6 @@ code {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  background: #97c1f3;
 }
 
 .header-icon {

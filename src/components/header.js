@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import { FaGithubSquare, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin, FaMailBulk } from 'react-icons/fa'
 import React from 'react';
+import { IconContext } from 'react-icons/lib';
 
 
 const Header = ({ title, onAdd, showAdd }) => {
@@ -8,6 +9,7 @@ const Header = ({ title, onAdd, showAdd }) => {
         <header className="header">
             <h1>{title}</h1>
             <div>
+                <IconContext.Provider value={{color: 'white'}}>
                 <a href="https://www.linkedin.com/in/apinan-yogaratnam/">
                     <FaLinkedin className="header-icon" />
                 </a>
@@ -26,6 +28,7 @@ const Header = ({ title, onAdd, showAdd }) => {
                 <a href="mailto: apinanapinan@icloud.com">
                     <FaMailBulk className="header-icon" />
                 </a>
+                </IconContext.Provider>
             </div>
         </header>
     )
