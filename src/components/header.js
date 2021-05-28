@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import { FaGithubSquare, FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin, FaMailBulk } from 'react-icons/fa'
 import React from 'react';
 import { IconContext } from 'react-icons/lib';
+import { IconButton } from '@material-ui/core';
 
 
 const Header = ({ title, onAdd, showAdd }) => {
@@ -10,24 +11,37 @@ const Header = ({ title, onAdd, showAdd }) => {
             <h1>{title}</h1>
             <div>
                 <IconContext.Provider value={{color: 'white'}}>
-                <a href="https://www.linkedin.com/in/apinan-yogaratnam/">
+                
+                {/* LinkedIn Icon */}
+                <a onClick={()=> window.open("https://www.linkedin.com/in/apinan-yogaratnam/", "_blank")}>
                     <FaLinkedin className="header-icon" />
                 </a>
-                <a href="https://github.com/apinanyogaratnam">
+
+                {/* GitHub Icon */}
+                <a onClick={()=> window.open("https://github.com/apinanyogaratnam", "_blank")}>
                     <FaGithubSquare className="header-icon" />
                 </a>
-                <a href="https://www.facebook.com/apinan.yogaratnam.7">
+
+                {/* Facebook Icon */}
+                <a onClick={()=> window.open("https://www.facebook.com/apinan.yogaratnam.7", "_blank")}>
                     <FaFacebookSquare className="header-icon" />
                 </a>
-                <a href="https://www.instagram.com/apinan.y/">
+
+                {/* Instagram Icon */}
+                <a onClick={()=> window.open("https://www.instagram.com/apinan.y/", "_blank")}>
                     <FaInstagramSquare className="header-icon" />
                 </a>
-                <a href="https://twitter.com/apiyogaratnam">
+
+                {/* Twitter Icon */}
+                <a onClick={()=> window.open("https://twitter.com/apiyogaratnam", "_blank")}>
                     <FaTwitterSquare className="header-icon" />
                 </a>
-                <a href="mailto: apinanapinan@icloud.com">
+
+                {/* Mail Icon */}
+                <a onClick={()=> window.open("mailto: apinanapinan@icloud.com", "_blank")}>
                     <FaMailBulk className="header-icon" />
                 </a>
+
                 </IconContext.Provider>
             </div>
         </header>
