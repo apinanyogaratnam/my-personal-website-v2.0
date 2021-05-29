@@ -40,6 +40,11 @@ code {
   color: rgb(28, 28, 214);
 }
 
+.header-icon:hover {
+  transform: rotate(720deg);
+  transition: all 0.25s ease-in-out;
+}
+
 .resume-container {
   background-color: rgb(80, 80, 243);
   margin: auto;
@@ -53,35 +58,24 @@ code {
 }
 
 .project-container {
-  height: 100px;
-  width: 400px;
-  background-color: rgb(255, 245, 56);
-  margin: auto;
-  border: 3px rgb(71, 30, 15);
-  padding: 5px;
+  background-color: rgb(255, 251, 0);
   border-radius: 5px;
   font-family: 'Rubik', sans-serif;
-  padding: 5px;
 
   width: 400px;
-  margin: 10px auto;
   height: 100px;
-  border: 1px solid steelblue;
-  padding: 20px;
+  padding: 5px;
   border-radius: 5px;
   float: left;
-  border: 2px solid red;
-  margin-right: 30px;
-  margin-left: 20px;
+  border: 4px solid black;
+  margin-right: 35px;
+  margin-left: 50px;
 }
 
 .projects-container {
-  height: 120px;
+  height: 50px;
   width: 1000px;
-
-  max-width: 1200px;
   margin: 30px auto;
-  height: 120px;
   border: 3px solid steelblue;
   padding: 30px;
   border-radius: 5px;

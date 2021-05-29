@@ -8,7 +8,7 @@ const Header = ({ title, onAdd, showAdd }) => {
         <header className="header">
             <h1>{title}</h1>
             <div>
-                <IconContext.Provider value={{color: 'white'}}>
+                <IconContext.Provider value={{color: 'white'}} style={{transform: [{rotateY: '180deg'}]}}>
                 
                 {/* LinkedIn Icon */}
                 <a onClick={()=> window.open("https://www.linkedin.com/in/apinan-yogaratnam/", "_blank")}>
