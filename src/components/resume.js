@@ -9,7 +9,7 @@ const Resume = () => {
         <div className="resume-container">
             <h2>CV</h2>
             <IconButton>
-                <a onClick={()=> window.open("", "_blank")}>
+                <a onClick={()=> window.open(resume_link, "_blank")}>
                     <AiFillFolderOpen color="white" size="5em"/>
                 </a>
             </IconButton>
