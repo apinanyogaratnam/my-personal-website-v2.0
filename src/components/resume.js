@@ -18,5 +18,3 @@ const Resume = () => {
 }
 
 export default Resume
-
-// edit resume side projects with new image compression tool
