@@ -20,6 +20,28 @@ const SidePorjects = () => {
 
                 </button>
 
+                <button className="project-container">
+
+                {/* Associate */}
+                <RiGitRepositoryFill size="2em" /> 
+                <GrInProgress size="1.8em"/>
+                <a href="" onClick={()=> window.open("https://github.com/apinanyogaratnam/Associate", "_blank")}>
+                    <h3>Associate Social Media Platform</h3>
+                </a>
+
+                </button>
+
+                <button className="project-container">
+
+                {/* Computer Science Languages API */}
+                <RiGitRepositoryFill size="2em" /> 
+                <GrInProgress size="1.8em"/>
+                <a href="" onClick={()=> window.open("https://github.com/apinanyogaratnam/Computer-Science-Languages-API", "_blank")}>
+                    <h3>Computer Science Languages API</h3>
+                </a>
+
+                </button>
+
 
                 <button className="project-container">
 

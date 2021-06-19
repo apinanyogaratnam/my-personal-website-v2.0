@@ -14,6 +14,10 @@ function App() {
         <Header />
         <Resume />
         <SideProjects />
+        <br />
+        <br />
+        <br />
+        <br />
         <AboutMe />
         <About />
         <p>Copyright &copy; 2021</p>
