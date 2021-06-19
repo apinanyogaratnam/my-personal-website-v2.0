@@ -31,7 +31,6 @@ code {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  border: 1px solid steelblue;
 }
 
 .header-icon {
@@ -77,7 +76,6 @@ code {
   height: 50px;
   width: 1000px;
   margin: 30px auto;
-  border: 3px solid steelblue;
   padding: 30px;
   border-radius: 5px;
 }
