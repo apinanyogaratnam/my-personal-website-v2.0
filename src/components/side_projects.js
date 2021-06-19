@@ -47,6 +47,7 @@ const SidePorjects = () => {
 
                 {/* Git Automator */}
                 <RiGitRepositoryFill size="2em" />
+                <GrInProgress size="1.8em"/>
                 <a href="" onClick={()=> window.open("https://github.com/apinanyogaratnam/automate_git", "_blank")}>
                     <h3>Git Automation</h3>
                 </a>
@@ -61,6 +62,7 @@ const SidePorjects = () => {
 
                 {/* Password Generator */}
                 <RiGitRepositoryFill size="2em" />
+                <GrInProgress size="1.8em"/>
                 <a href="" onClick={()=> window.open("https://github.com/apinanyogaratnam/password_generator", "_blank")}>
                     <h3>Password Generator</h3>
                 </a>
@@ -72,6 +74,7 @@ const SidePorjects = () => {
 
                 {/* Python String Methods */}
                 <RiGitRepositoryFill size="2em" />
+                <GrInProgress size="1.8em"/>
                 <a href="" onClick={()=> window.open("https://github.com/apinanyogaratnam/python_string_methods", "_blank")}>
                     <h3>Python String Methods</h3>
                 </a>
