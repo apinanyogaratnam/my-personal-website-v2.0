@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <img src="../public/images/circular_loops.jpg" alt="Background Image of a Circular Loops" />
+        <img src="/images/circular_loops.jpg" alt="Background Image of a Circular Loops" />
         <Resume />
         <SideProjects />
         <br />
