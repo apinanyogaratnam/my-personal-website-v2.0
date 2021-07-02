@@ -3,7 +3,7 @@ import '../App.css'
 
 const AboutMe = () => {
     return (
-        <div>
+        <div className="text">
             <h1>About Me</h1>
             <img className="image-of-me" src="/images/head_and_body_shot.jpg" alt="Image of Apinan Yogaratnam in Pink Shirt" />
             <p>

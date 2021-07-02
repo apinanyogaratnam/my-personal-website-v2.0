@@ -6,6 +6,9 @@ import About from './components/about'
 import AboutMe from './components/about_me'
 import React from 'react';
 import Typical from 'react-typical'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/custom.css';
+import { Container } from 'react-bootstrap';
 
 
 function App() {
@@ -15,17 +18,18 @@ function App() {
         {/* <Header /> */}
         <div className="content-wrapper">
           <img className="circular-image" src="/images/circular_loops.jpg" alt="Background Image of a Circular Loops" />
-          <div className="text-wrapper"></div>
           <h1>Hi, I'm Apinan Yogaratnam</h1>
-          <p>I'm a{' '}
+          <p className="text">I'm a{' '}
             
             <Typical 
-            loop={Infinity} 
+            // loop={Infinity} 
+            loop={1}
             wrapper="b" 
             steps={[
               'Software Developer', 1000,
               'Student at the University of Toronto', 1000,
               'McDonald\'s Employee', 1000,
+              'Software Engineer', 1000
             ]}/>
 
           </p>
@@ -38,7 +42,7 @@ function App() {
         <br />
         <AboutMe />
         <About />
-        <p>Copyright &copy; 2021</p>
+        <p className="text">Copyright &copy; 2021</p>
     </div>
   );
 }

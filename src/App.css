@@ -48,9 +48,6 @@
   height: 300px;
   width: 300px;
   position: absolute;
-}
-
-.content-wrapper {
-  width: 80%;
-  margin: 4% 10% 5% 10%;
+  border-radius: 50%;
+  border: 1vh solid black;
 }
