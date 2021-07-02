@@ -13,22 +13,25 @@ function App() {
   return (
     <div className="App">
         {/* <Header /> */}
-        <img className="circular-image" src="/images/circular_loops.jpg" alt="Background Image of a Circular Loops" />
-        <h1>Hi, I'm Apinan Yogarantam</h1>
-        <p>I'm a{' '}
-          
-          <Typical 
-          loop={Infinity} 
-          wrapper="b" 
-          steps={[
-            'Software Developer ', 1000,
-            'Student at the University of Toronto', 1000,
-            ''
-          ]}/>
+        <div className="content-wrapper">
+          <img className="circular-image" src="/images/circular_loops.jpg" alt="Background Image of a Circular Loops" />
+          <div className="text-wrapper"></div>
+          <h1>Hi, I'm Apinan Yogaratnam</h1>
+          <p>I'm a{' '}
+            
+            <Typical 
+            loop={Infinity} 
+            wrapper="b" 
+            steps={[
+              'Software Developer', 1000,
+              'Student at the University of Toronto', 1000,
+              'McDonald\'s Employee', 1000,
+            ]}/>
 
-        </p>
-        <Resume />
-        <SideProjects />
+          </p>
+        </div>
+        {/* <Resume /> */}
+        {/* <SideProjects /> */}
         <br />
         <br />
         <br />

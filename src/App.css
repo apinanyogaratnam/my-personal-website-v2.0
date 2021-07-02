@@ -41,9 +41,16 @@
   height: 633px;
   width: 906px;
   margin-left: 25%;
+  position: absolute;
 }
 
 .image-of-me {
   height: 300px;
   width: 300px;
+  position: absolute;
+}
+
+.content-wrapper {
+  width: 80%;
+  margin: 4% 10% 5% 10%;
 }
