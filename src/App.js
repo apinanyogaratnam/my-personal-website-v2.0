@@ -9,7 +9,8 @@ import Typical from 'react-typical'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/custom.css';
 import { Container } from 'react-bootstrap';
-
+import { CarouselContainer } from './components/index';
+import { RiArrowDownSLine } from 'react-icons/ri';
 
 function App() {
   
@@ -28,23 +29,26 @@ function App() {
                       loop={1}
                       wrapper="b" 
                       steps={[
-                        'Software Developer', 1000,
-                        'Student at the University of Toronto', 1000,
-                        'McDonald\'s Employee', 1000,
-                        'Software Engineer', 1000
+                        'Software Developer 💻', 1000,
+                        'Student at the University of Toronto 🏫', 1000,
+                        'McDonald\'s Employee 🍔', 1000,
+                        'Software Engineer 👨🏾‍💻', 1000
                       ]}/>
 
                     </p>
             </figcaption>
           </figure>
-        </Container>
         
         {/* <Resume /> */}
         {/* <SideProjects /> */}
         <br />
         <br />
         <br />
-        <br />
+        <RiArrowDownSLine color="white" size="2em"/>
+        <br /><br /><br />
+        </Container>
+        <h1>Side Projects</h1>
+        <CarouselContainer className="carousel-container"/>
         <AboutMe />
         {/* <About /> */}
         {/* <p className="text">Copyright &copy; 2021</p> */}

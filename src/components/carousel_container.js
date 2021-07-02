@@ -1,11 +1,46 @@
-import React from 'react'
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
 
-const carousel_container = () => {
+const CarouselContainer = () => {
     return (
         <div>
-            
+            <Carousel>
+            <Carousel.Item interval={1000}>
+                <img
+                className="d-block w-100"
+                src={require("../images/Associate.jpg")}
+                alt="First slide"
+                />
+                <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+                <img
+                className="d-block w-100"
+                src={require("../images/sad_girl.jpg")}
+                alt="Second slide"
+                />
+                <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={require("../images/c250.jpg")}
+                alt="Third slide"
+                />
+                <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            </Carousel>
         </div>
     )
 }
 
-export default carousel_container
+export default CarouselContainer
