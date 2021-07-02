@@ -41,13 +41,13 @@
   height: 633px;
   width: 906px;
   margin-left: 25%;
-  position: absolute;
 }
 
 .image-of-me {
   height: 300px;
   width: 300px;
-  position: absolute;
   border-radius: 50%;
   border: 1vh solid black;
+  margin-top: 2%;
+  margin-right: 0%;
 }
