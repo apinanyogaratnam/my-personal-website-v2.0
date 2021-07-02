@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div className="App">
-        <Header />
+        {/* <Header /> */}
         <img className="circular-image" src="/images/circular_loops.jpg" alt="Background Image of a Circular Loops" />
         <Resume />
         <SideProjects />
