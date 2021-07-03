@@ -4,3 +4,4 @@ export { default as About } from './about.js';
 export { default as Header } from './header.js';
 export { default as Resume } from './resume.js';
 export { default as SideProjects } from './side_projects.js';
+export { default as MainPage } from './main_page.js';
