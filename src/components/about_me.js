@@ -3,7 +3,7 @@ import '../App.css'
 
 const AboutMe = () => {
     return (
-        <div>
+        <div id="About">
             <h1>About Me</h1>
             <p>
             My name is Apinan Yogaratnam currently persuing a Bachelors degree in Science. My field of study is Mathematics and Statistics.

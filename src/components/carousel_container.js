@@ -1,10 +1,13 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import { RiArrowDownSLine } from 'react-icons/ri';
 
 const CarouselContainer = () => {
     return (
         <div>
             <Carousel fade>
+                {/* First Label */}
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
@@ -12,11 +15,14 @@ const CarouselContainer = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <a href="https://github.com/apinanyogaratnam/Associate" target="_blank">
+                        <h3>View Source code on GitHub</h3>
+                    </a>
+                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
 
+                {/* Second Label */}
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
@@ -30,6 +36,7 @@ const CarouselContainer = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
+                {/* Second Label */}
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
