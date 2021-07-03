@@ -1,12 +1,8 @@
 import './App.css';
-import React from 'react';
-import Typical from 'react-typical'
+import { React, Typical, Container, RiArrowDownSLine, Link } from './imports.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/custom.css';
-import { Container } from 'react-bootstrap';
 import { CarouselContainer, Header, Resume, SideProjects, About, AboutMe } from './components/index';
-import { RiArrowDownSLine } from 'react-icons/ri';
-import { Link } from 'react-scroll';
 
 function App() {
 
