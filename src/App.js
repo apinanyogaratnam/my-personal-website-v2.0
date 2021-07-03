@@ -4,16 +4,17 @@ import Resume from './components/resume'
 import SideProjects from './components/side_projects'
 import About from './components/about'
 import AboutMe from './components/about_me'
-import React from 'react';
+import React, { useRef } from 'react';
 import Typical from 'react-typical'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/custom.css';
 import { Container } from 'react-bootstrap';
 import { CarouselContainer } from './components/index';
 import { RiArrowDownSLine } from 'react-icons/ri';
+import { Link } from 'react-scroll';
 
 function App() {
-  
+
   return (
     <div className="App">
         {/* <Header /> */}
@@ -44,11 +45,12 @@ function App() {
         <br />
         <br />
         <br />
-        <RiArrowDownSLine color="white" size="2em"/>
+ 
+        <Link to="carousel"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+
         <br /><br /><br />
         </Container>
-        <h1>Side Projects</h1>
-        <CarouselContainer className="carousel-container"/>
+        <CarouselContainer className="carousel-container" id="carousel" /> 
         <AboutMe />
         {/* <About /> */}
         {/* <p className="text">Copyright &copy; 2021</p> */}
