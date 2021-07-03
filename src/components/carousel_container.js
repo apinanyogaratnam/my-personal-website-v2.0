@@ -26,7 +26,7 @@ const CarouselContainer = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={require("../images/Associate.jpg")}
+                    src={require("../images/Git_Automator.jpg")}
                     alt="Second slide"
                     />
 
@@ -38,7 +38,7 @@ const CarouselContainer = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                {/* Second Label */}
+                {/* Third Label */}
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
