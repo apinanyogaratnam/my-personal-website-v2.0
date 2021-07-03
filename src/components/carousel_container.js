@@ -31,8 +31,10 @@ const CarouselContainer = () => {
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="https://github.com/apinanyogaratnam/Image-Compression-Tool" target="_blank">
+                        <h3>View Source code on GitHub</h3>
+                    </a>
+                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -45,8 +47,10 @@ const CarouselContainer = () => {
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <a href="https://github.com/apinanyogaratnam/automate_git" target="_blank">
+                        <h3>View Source code on GitHub</h3>
+                    </a>
+                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
