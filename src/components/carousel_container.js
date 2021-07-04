@@ -31,7 +31,7 @@ const CarouselContainer = () => {
                     />
 
                     <Carousel.Caption>
-                    <a href="https://github.com/apinanyogaratnam/Image-Compression-Tool" target="_blank">
+                    <a href="https://github.com/apinanyogaratnam/automate_git" target="_blank">
                         <h3>View Source code on GitHub</h3>
                     </a>
                     <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
@@ -47,7 +47,7 @@ const CarouselContainer = () => {
                     />
 
                     <Carousel.Caption>
-                    <a href="https://github.com/apinanyogaratnam/automate_git" target="_blank">
+                    <a href="https://github.com/apinanyogaratnam/Image-Compression-Tool" target="_blank">
                         <h3>View Source code on GitHub</h3>
                     </a>
                     <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
