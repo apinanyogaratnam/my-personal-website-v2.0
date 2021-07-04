@@ -42,7 +42,7 @@ const CarouselContainer = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={require("../images/Associate.jpg")}
+                    src={require("../images/Image_Compression_Tool.jpg")}
                     alt="Third slide"
                     />
 
