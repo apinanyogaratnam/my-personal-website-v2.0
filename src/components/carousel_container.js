@@ -11,7 +11,7 @@ const CarouselContainer = () => {
                 {/* First Label */}
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 carousel-container"
                     src={require("../images/Associate.jpg").default}
                     alt="First slide"
                     />
@@ -26,7 +26,7 @@ const CarouselContainer = () => {
                 {/* Second Label */}
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 carousel-container"
                     src={require("../images/Git_Automator.jpg").default}
                     alt="Second slide"
                     />
@@ -42,7 +42,7 @@ const CarouselContainer = () => {
                 {/* Third Label */}
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 carousel-container"
                     src={require("../images/Image_Compression_Tool.jpg").default}
                     alt="Third slide"
                     />
