@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import { RiArrowDownSLine } from 'react-icons/ri';
+import '../css/custom.css';
 
 const CarouselContainer = () => {
     return (
