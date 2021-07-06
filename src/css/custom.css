@@ -15,3 +15,12 @@ figcaption {
 p {
     color: white;
 }
+
+.carousel-container {
+    height: 540px;
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
