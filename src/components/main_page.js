@@ -9,7 +9,7 @@ const MainPage = () => {
         <div>
             <Container className="text">
             <figure className="position-relative">
-                <img className="circular-image img-fluid" src={require("../images/circular_loops.jpg")} alt="Background Image of a Circular Loops" />
+                <img className="circular-image img-fluid" src={require("../images/circular_loops.jpg")} alt="Circular Loops" />
                 <figcaption>
                         <h1>Hi, I'm Apinan Yogaratnam</h1>
                         <p className="text">I'm a{' '}
