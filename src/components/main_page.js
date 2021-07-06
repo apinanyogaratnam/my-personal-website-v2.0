@@ -1,5 +1,8 @@
 import React from 'react';
 import {Container, Typical, Link, RiArrowDownSLine} from '../imports.js';
+import '../css/custom.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
 
 const MainPage = () => {
     return (

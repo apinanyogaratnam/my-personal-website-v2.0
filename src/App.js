@@ -1,8 +1,8 @@
 import './App.css';
-import { React, Typical, Container, RiArrowDownSLine, Link } from './imports.js';
+import { React } from './imports.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/custom.css';
-import { CarouselContainer, Header, Resume, SideProjects, About, AboutMe, MainPage } from './components/index';
+import { CarouselContainer, AboutMe, MainPage } from './components/index';
 
 function App() {
 
