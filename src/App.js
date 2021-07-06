@@ -8,12 +8,10 @@ function App() {
 
   return (
     <div className="App">
-        {/* <Header /> */}
         <MainPage />
         <CarouselContainer className="carousel-container" id="carousel" /> 
         <AboutMe />
-        {/* <About /> */}
-        {/* <p className="text">Copyright &copy; 2021</p> */}
+        <p className="text">Copyright &copy; 2021</p>
     </div>
   );
 }
