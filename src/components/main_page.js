@@ -12,7 +12,8 @@ const MainPage = () => {
                 <img className="circular-image img-fluid" src={require("../images/Circular_Loops.jpg").default} alt="Circular Loops" />
                 <figcaption>
                         <h1>Hi, I'm Apinan Yogaratnam</h1>
-                        <p className="text">I'm a{' '}
+                        <h6>You can call me Api, if its easier :P</h6>
+                        <h4 className="text">I'm a{' '}
                         
                         <Typical 
                         // loop={Infinity} 
@@ -25,13 +26,13 @@ const MainPage = () => {
                             'Software Engineer 👨🏾‍💻', 1000
                         ]}/>
 
-                        </p>
+                        </h4>
                 </figcaption>
             </figure>
 
             <br /><br /><br />
     
-            <Link to="carousel"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+            <Link to="side-projects-title-id"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
 
             <br /><br /><br />
             </Container>

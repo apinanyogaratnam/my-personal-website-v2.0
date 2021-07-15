@@ -7,7 +7,7 @@ import '../css/custom.css';
 const CarouselContainer = () => {
     return (
         <div>
-            <Carousel fade>
+            <Carousel fade className="main-carousel">
                 {/* First Label */}
                 <Carousel.Item>
                     <img
@@ -19,7 +19,6 @@ const CarouselContainer = () => {
                     <a href="https://github.com/apinanyogaratnam/Associate" target="_blank" rel="noopener noreferrer">
                         <h3 className="side-project-link">View Source code on GitHub</h3>
                     </a>
-                    <Link to="About"> <RiArrowDownSLine className="arrow-to-aboutme" color="white" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -34,8 +33,7 @@ const CarouselContainer = () => {
                     <Carousel.Caption>
                     <a href="https://github.com/apinanyogaratnam/automate_git" target="_blank" rel="noopener noreferrer">
                         <h3 className="side-project-link">View Source code on GitHub</h3>
-                    </a>
-                    <Link to="About"> <RiArrowDownSLine className="arrow-to-aboutme" color="white" size="2em" /> </Link> 
+                    </a> 
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -51,10 +49,10 @@ const CarouselContainer = () => {
                     <a href="https://github.com/apinanyogaratnam/Image-Compression-Tool" target="_blank" rel="noopener noreferrer">
                         <h3 className="side-project-link">View Source code on GitHub</h3>
                     </a>
-                    <Link to="About"> <RiArrowDownSLine className="arrow-to-aboutme" color="white" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <Link to="About"> <RiArrowDownSLine className="arrow-to-aboutme" color="white" size="2em" /> </Link> 
         </div>
     )
 }

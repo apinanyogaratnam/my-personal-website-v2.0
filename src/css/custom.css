@@ -23,15 +23,25 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
-    margin-left: 25%;
+    margin-top: 5%;
+    margin-left: 12.2%;
 }
 
 .side-project-link {
-    margin-left: 23%;
+    margin-left: 6%;
 }
 
 .arrow-to-aboutme {
     position: absolute;
+    margin-top: 3.3%;
+}
+
+.main-carousel {
+    width: 1240px;
+    margin-left: 16%;
+}
+
+.projects-title {
+    margin-right: 60%;
     margin-top: 2%;
 }
