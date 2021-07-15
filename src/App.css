@@ -44,10 +44,14 @@
 }
 
 .image-of-me {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
   border: 1vh solid black;
   margin-top: 2%;
   margin-right: 0%;
+}
+
+.aboutme-title {
+  margin-top: 5%;
 }

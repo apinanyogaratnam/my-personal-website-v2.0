@@ -21,6 +21,17 @@ p {
     max-width: 960px;
     margin: auto;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.side-project-link {
+    margin-left: 23%;
+}
+
+.arrow-to-aboutme {
+    position: absolute;
+    margin-top: 2%;
 }
