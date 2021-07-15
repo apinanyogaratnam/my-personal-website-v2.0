@@ -11,6 +11,7 @@ function App() {
         <MainPage />
         <CarouselContainer className="carousel-container" id="carousel" /> 
         <AboutMe />
+        <hr></hr>
         <p className="text">Copyright &copy; 2021</p>
     </div>
   );
