@@ -66,4 +66,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 This command builds the current work and hosts it on gh-pages automatically (configured in [package.json](package.json))
 
-# used material-ur, react.js, Git
+# used react.js, git, react-bootstrap, react-icons
