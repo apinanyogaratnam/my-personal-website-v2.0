@@ -54,6 +54,22 @@ const CarouselContainer = () => {
                     <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
+
+                {/* Fourth Label */}
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={require("../images/Stews-Bot.jpg").default}
+                    alt="Fourth slide"
+                    />
+
+                    <Carousel.Caption>
+                    <a href="https://github.com/apinanyogaratnam/Stews-Bot" target="_blank" rel="noopener noreferrer">
+                        <h3>View Source code on GitHub</h3>
+                    </a>
+                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
         </div>
     )
