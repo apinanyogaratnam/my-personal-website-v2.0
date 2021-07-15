@@ -2,7 +2,7 @@ import './App.css';
 import { React } from './imports.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/custom.css';
-import { CarouselContainer, AboutMe, MainPage } from './components/index';
+import { CarouselContainer, AboutMe, MainPage, Socials } from './components/index';
 
 function App() {
 
@@ -11,7 +11,8 @@ function App() {
         <MainPage />
         <CarouselContainer className="carousel-container" id="carousel" /> 
         <AboutMe />
-        <hr></hr>
+        <hr />
+        <Socials />
         <p className="text">Copyright &copy; 2021</p>
     </div>
   );

@@ -67,3 +67,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 This command builds the current work and hosts it on gh-pages automatically (configured in [package.json](package.json))
 
 # used react.js, git, react-bootstrap, react-icons
+
+decide wether to leave all social media icons at the bottom of the page or \
+leave the important ones in a visible area and the rest at the bottom
