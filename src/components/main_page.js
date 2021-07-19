@@ -32,7 +32,7 @@ const MainPage = () => {
 
             <br /><br /><br />
     
-            <Link to="carousel"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+            <Link to="carousel"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
 
             <br /><br /><br />
             </Container>

@@ -19,7 +19,7 @@ const CarouselContainer = () => {
                     <a href="https://github.com/apinanyogaratnam/Associate" target="_blank" rel="noopener noreferrer">
                         <h3>View Source code on GitHub</h3>
                     </a>
-                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+                    <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -35,7 +35,7 @@ const CarouselContainer = () => {
                     <a href="https://github.com/apinanyogaratnam/automate_git" target="_blank" rel="noopener noreferrer">
                         <h3>View Source code on GitHub</h3>
                     </a>
-                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+                    <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -51,7 +51,7 @@ const CarouselContainer = () => {
                     <a href="https://github.com/apinanyogaratnam/Image-Compression-Tool" target="_blank" rel="noopener noreferrer">
                         <h3>View Source code on GitHub</h3>
                     </a>
-                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+                    <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -67,7 +67,7 @@ const CarouselContainer = () => {
                     <a href="https://github.com/apinanyogaratnam/Stews-Bot" target="_blank" rel="noopener noreferrer">
                         <h3>View Source code on GitHub</h3>
                     </a>
-                    <Link to="About"> <RiArrowDownSLine color="white" size="2em" /> </Link> 
+                    <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
