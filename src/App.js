@@ -5,6 +5,7 @@ import './css/custom.css';
 import { CarouselContainer, AboutMe, MainPage, Socials } from './components/index';
 
 function App() {
+  const currentYear = new Date().getFullYear(); 
 
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
         <AboutMe />
         <hr />
         <Socials />
-        <p className="text">Copyright &copy; 2021</p>
+        <p className="text">Copyright &copy; {currentYear}</p>
     </div>
   );
 }
