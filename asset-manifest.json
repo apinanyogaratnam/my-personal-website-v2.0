@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-personal-website-v2.0/static/css/main.a3bb37be.chunk.css",
-    "main.js": "/my-personal-website-v2.0/static/js/main.7bc745be.chunk.js",
-    "main.js.map": "/my-personal-website-v2.0/static/js/main.7bc745be.chunk.js.map",
+    "main.css": "/my-personal-website-v2.0/static/css/main.f2d916ab.chunk.css",
+    "main.js": "/my-personal-website-v2.0/static/js/main.096b68d5.chunk.js",
+    "main.js.map": "/my-personal-website-v2.0/static/js/main.096b68d5.chunk.js.map",
     "runtime-main.js": "/my-personal-website-v2.0/static/js/runtime-main.ee8c4eae.js",
     "runtime-main.js.map": "/my-personal-website-v2.0/static/js/runtime-main.ee8c4eae.js.map",
     "static/css/2.4be38407.chunk.css": "/my-personal-website-v2.0/static/css/2.4be38407.chunk.css",
-    "static/js/2.604c1037.chunk.js": "/my-personal-website-v2.0/static/js/2.604c1037.chunk.js",
-    "static/js/2.604c1037.chunk.js.map": "/my-personal-website-v2.0/static/js/2.604c1037.chunk.js.map",
+    "static/js/2.3afa8302.chunk.js": "/my-personal-website-v2.0/static/js/2.3afa8302.chunk.js",
+    "static/js/2.3afa8302.chunk.js.map": "/my-personal-website-v2.0/static/js/2.3afa8302.chunk.js.map",
     "static/js/3.007cce2e.chunk.js": "/my-personal-website-v2.0/static/js/3.007cce2e.chunk.js",
     "static/js/3.007cce2e.chunk.js.map": "/my-personal-website-v2.0/static/js/3.007cce2e.chunk.js.map",
     "index.html": "/my-personal-website-v2.0/index.html",
     "static/css/2.4be38407.chunk.css.map": "/my-personal-website-v2.0/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.a3bb37be.chunk.css.map": "/my-personal-website-v2.0/static/css/main.a3bb37be.chunk.css.map",
-    "static/js/2.604c1037.chunk.js.LICENSE.txt": "/my-personal-website-v2.0/static/js/2.604c1037.chunk.js.LICENSE.txt",
+    "static/css/main.f2d916ab.chunk.css.map": "/my-personal-website-v2.0/static/css/main.f2d916ab.chunk.css.map",
+    "static/js/2.3afa8302.chunk.js.LICENSE.txt": "/my-personal-website-v2.0/static/js/2.3afa8302.chunk.js.LICENSE.txt",
     "static/media/Associate.jpg": "/my-personal-website-v2.0/static/media/Associate.9d6fb3b2.jpg",
     "static/media/Circular_Loops.jpg": "/my-personal-website-v2.0/static/media/Circular_Loops.03c9d051.jpg",
     "static/media/Git_Automator.jpg": "/my-personal-website-v2.0/static/media/Git_Automator.ca36bc14.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.ee8c4eae.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.604c1037.chunk.js",
-    "static/css/main.a3bb37be.chunk.css",
-    "static/js/main.7bc745be.chunk.js"
+    "static/js/2.3afa8302.chunk.js",
+    "static/css/main.f2d916ab.chunk.css",
+    "static/js/main.096b68d5.chunk.js"
   ]
 }
