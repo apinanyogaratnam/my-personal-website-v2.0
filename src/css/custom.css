@@ -37,3 +37,10 @@ hr {
 .socials-container {
     
 }
+
+.icon {
+    color: white;
+}
+.icon:hover {
+    color: steelblue;
+}

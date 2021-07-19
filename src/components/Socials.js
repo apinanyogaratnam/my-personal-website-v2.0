@@ -27,32 +27,32 @@ const Socials = () => {
 
     return (
         <div className="socials-container">
-            <a onClick={()=> window.open(github_link, "_blank")}>
-                <AiFillGithub color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(github_link, "_blank")}>
+                <AiFillGithub size="2em"/>
             </a>
-            <a onClick={()=> window.open(linkedin_link, "_blank")}>
-                <FiLinkedin color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(linkedin_link, "_blank")}>
+                <FiLinkedin size="2em"/>
             </a>
-            <a onClick={()=> window.open(website_v1_link, "_blank")}>
-                <HiOutlineGlobe color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(website_v1_link, "_blank")}>
+                <HiOutlineGlobe size="2em"/>
             </a>
-            <a onClick={()=> window.open(email, "_blank")}>
-                <HiOutlineMail color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(email, "_blank")}>
+                <HiOutlineMail size="2em"/>
             </a>
-            <a onClick={()=> window.open(instagram_link, "_blank")}>
-                <IoLogoInstagram color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(instagram_link, "_blank")}>
+                <IoLogoInstagram size="2em"/>
             </a>
-            <a onClick={()=> window.open(twitter_link, "_blank")}>
-                <FiTwitter color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(twitter_link, "_blank")}>
+                <FiTwitter size="2em"/>
             </a>
-            <a onClick={()=> window.open(facebook_link, "_blank")}>
-                <FiFacebook color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(facebook_link, "_blank")}>
+                <FiFacebook size="2em"/>
             </a>
-            <a onClick={()=> window.open(snapchat_link, "_blank")}>
-                <RiSnapchatLine color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(snapchat_link, "_blank")}>
+                <RiSnapchatLine size="2em"/>
             </a>
-            <a onClick={()=> window.open(stackoverflow_link, "_blank")}>
-                <RiStackOverflowLine color="white" size="2em"/>
+            <a className="icon" onClick={()=> window.open(stackoverflow_link, "_blank")}>
+                <RiStackOverflowLine size="2em"/>
             </a>
         </div>
     )
