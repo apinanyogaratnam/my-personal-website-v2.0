@@ -6,7 +6,9 @@ const Resume = () => {
 
     return (
         <div>
-            <button>Resume</button>
+            <button onClick={()=> window.open(resume_link, "_blank")}>
+                Resume
+            </button>
         </div>
     )
 }

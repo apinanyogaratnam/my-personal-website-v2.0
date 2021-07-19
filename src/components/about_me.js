@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import Resume from './index.js';
+import Resume from './Resume.js';
 
 const AboutMe = () => {
     return (
