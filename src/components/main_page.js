@@ -12,7 +12,7 @@ const MainPage = () => {
                 <img className="circular-image img-fluid" src={require("../images/Circular_Loops.jpg").default} alt="Circular Loops" />
                 <figcaption>
                         <h1>Hi, I'm Apinan Yogaratnam</h1>
-                        <h6>You can call me Api, its easier :P</h6>
+                        <h6>You can call me Api, it's easier :P</h6>
                         <p className="text">I'm a{' '}
                         
                         <Typical 
