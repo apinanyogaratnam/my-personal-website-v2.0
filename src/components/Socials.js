@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillGithub, IoLogoInstagram, FiFacebook, FiTwitter, FiLinkedin, 
-         RiSnapchatLine, RiStackOverflowLine, HiOutlineGlobe, HiOutlineMail 
-        } from './IconImports'
+         RiSnapchatLine, RiStackOverflowLine, HiOutlineGlobe, HiOutlineMail, 
+         FaDiscord } from './IconImports'
 import '../css/custom.css';
 // create seperate file for icon imports
 
@@ -53,6 +53,9 @@ const Socials = () => {
             </a>
             <a className="icon" onClick={()=> window.open(stackoverflow_link, "_blank")}>
                 <RiStackOverflowLine size="2em"/>
+            </a>
+            <a className="icon" onClick={undefined}>
+                <FaDiscord size="2em"/>
             </a>
         </div>
     )
