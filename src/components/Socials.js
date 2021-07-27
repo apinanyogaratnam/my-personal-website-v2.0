@@ -3,7 +3,10 @@ import { AiFillGithub, IoLogoInstagram, FiFacebook, FiTwitter, FiLinkedin,
          RiSnapchatLine, RiStackOverflowLine, HiOutlineGlobe, HiOutlineMail, 
          FaDiscord } from './IconImports'
 import '../css/custom.css';
-// create seperate file for icon imports
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css'; // optional
+import { useCopyToClipboard } from 'react-use';
+import { FaCopy } from 'react-icons/fa';
 
 const Socials = () => {
     // front line social links
@@ -24,6 +27,10 @@ const Socials = () => {
     const reddit_link = "https://www.reddit.com/user/stewietheangel";
     const youtube_link = "https://www.youtube.com/channel/UChKmTOaRJmU1VJQlDJoskeQ";
     const discordTag = "stewietheangel#6223";
+
+    const copyToClipboard = () => {
+        navigator.clipboard.writeText(discordTag);
+    }
 
     return (
         <div className="socials-container">
@@ -54,9 +61,11 @@ const Socials = () => {
             <a className="icon" onClick={()=> window.open(stackoverflow_link, "_blank")}>
                 <RiStackOverflowLine size="2em"/>
             </a>
-            <a className="icon" onClick={() => navigator.clipboard.writeText(discordTag)}>
+            <Tippy content="Copied Discord Tag to clipboard" arrow={false} trigger="click" interactive={true}>
+            <a className="icon discord" onClick={copyToClipboard}>
                 <FaDiscord size="2em"/>
             </a>
+            </Tippy>
         </div>
     )
 }
