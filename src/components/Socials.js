@@ -28,10 +28,6 @@ const Socials = () => {
     const youtube_link = "https://www.youtube.com/channel/UChKmTOaRJmU1VJQlDJoskeQ";
     const discordTag = "stewietheangel#6223";
 
-    const copyToClipboard = () => {
-        navigator.clipboard.writeText(discordTag);
-    }
-
     return (
         <div className="socials-container">
             <a className="icon" onClick={()=> window.open(github_link, "_blank")}>
@@ -62,7 +58,7 @@ const Socials = () => {
                 <RiStackOverflowLine size="2em"/>
             </a>
             <Tippy content="Copied Discord Tag to clipboard" arrow={false} trigger="click" interactive={true}>
-            <a className="icon discord" onClick={copyToClipboard}>
+            <a className="icon discord" onClick={() => navigator.clipboard.writeText(discordTag)}>
                 <FaDiscord size="2em"/>
             </a>
             </Tippy>
