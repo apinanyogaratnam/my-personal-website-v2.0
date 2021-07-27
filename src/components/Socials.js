@@ -23,7 +23,7 @@ const Socials = () => {
     const steam_link = "https://steamcommunity.com/profiles/76561199123617568";
     const reddit_link = "https://www.reddit.com/user/stewietheangel";
     const youtube_link = "https://www.youtube.com/channel/UChKmTOaRJmU1VJQlDJoskeQ";
-    const discord_id = "stewietheangel#6223"
+    const discordTag = "stewietheangel#6223";
 
     return (
         <div className="socials-container">
@@ -54,7 +54,7 @@ const Socials = () => {
             <a className="icon" onClick={()=> window.open(stackoverflow_link, "_blank")}>
                 <RiStackOverflowLine size="2em"/>
             </a>
-            <a className="icon" onClick={undefined}>
+            <a className="icon" onClick={() => navigator.clipboard.writeText(discordTag)}>
                 <FaDiscord size="2em"/>
             </a>
         </div>
