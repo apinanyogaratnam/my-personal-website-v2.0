@@ -5,7 +5,7 @@ const SideProjectsSection = () => {
         <div className="side-projects-container">
             <h1>Side Projects</h1>
             <div className="project-container">
-                <h4>Hi</h4>
+                <h4>Project 1</h4>
             </div>
         </div>
     );
