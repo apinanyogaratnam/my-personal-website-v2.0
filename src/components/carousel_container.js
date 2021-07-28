@@ -70,6 +70,22 @@ const CarouselContainer = () => {
                     <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
+
+                {/* Fifth Label */}
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={require("../images/journal_my_life.jpg").default}
+                    alt="Fourth slide"
+                    />
+
+                    <Carousel.Caption>
+                    <a href="https://github.com/apinanyogaratnam/journal-my-life" target="_blank" rel="noopener noreferrer">
+                        <h3>View Source code on GitHub</h3>
+                    </a>
+                    <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
         </div>
     )

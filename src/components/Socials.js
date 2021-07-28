@@ -29,7 +29,7 @@ const Socials = () => {
     const discordTag = "stewietheangel#6223";
 
     return (
-        <div className="socials-container">
+        <div className="socials-container" id="socials">
             <a className="icon" onClick={()=> window.open(github_link, "_blank")}>
                 <AiFillGithub size="2em"/>
             </a>
