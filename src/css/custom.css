@@ -63,16 +63,27 @@ button:hover {
 }
 
 .side-projects-container {
-    width: 1425px;
+    width: 100%;
     height: 1080px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 2.1%;
 }
 
 .project-container {
-    width: 300px;
-    height: 500px;
+    width: 21.1%;
+    height: 46%;
     background-color: azure;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 7%;
+    margin-left: 7.5%;
     border-radius: 15px;
+    /* border-radius: 4%; */
+}
+
+.image-container {
+    background-color: red;
+    /* width: 250px; */
+    width: 90%;
+    height: 60%;
+    margin-left: 5.3%;
+    margin-top: 10%;
 }
