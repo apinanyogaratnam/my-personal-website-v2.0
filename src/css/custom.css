@@ -61,3 +61,18 @@ button:hover {
     height: 40px;
     background-color: steelblue;
 }
+
+.side-projects-container {
+    width: 1425px;
+    height: 1080px;
+    margin-top: 30px;
+}
+
+.project-container {
+    width: 300px;
+    height: 500px;
+    background-color: azure;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+}

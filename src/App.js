@@ -2,7 +2,7 @@ import './App.css';
 import { React } from './imports.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/custom.css';
-import { CarouselContainer, AboutMe, MainPage, Socials } from './components/index';
+import { CarouselContainer, AboutMe, MainPage, Socials, SideProjectsSection } from './components/index';
 
 function App() {
   const currentYear = new Date().getFullYear(); 
@@ -11,6 +11,7 @@ function App() {
     <div className="App">
         <MainPage />
         <CarouselContainer className="carousel-container" id="carousel" /> 
+        <SideProjectsSection />
         <AboutMe />
         <hr />
         <Socials />

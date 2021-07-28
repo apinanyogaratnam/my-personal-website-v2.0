@@ -5,8 +5,6 @@ import { AiFillGithub, IoLogoInstagram, FiFacebook, FiTwitter, FiLinkedin,
 import '../css/custom.css';
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'; // optional
-import { useCopyToClipboard } from 'react-use';
-import { FaCopy } from 'react-icons/fa';
 
 const Socials = () => {
     // front line social links
