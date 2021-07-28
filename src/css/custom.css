@@ -51,6 +51,13 @@ button {
     border-radius: 20px;
     width: 100px;
     height: 40px;
-    background-color: steelblue;
+    background-color: rgb(87, 161, 221);
 }
 
+button:hover {
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: steelblue;
+}
