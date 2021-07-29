@@ -20,7 +20,7 @@ const SideProjectsSection = () => {
                     <img></img>
                 </div>
                 <div className="project-caption-container">
-                    <p>Things to say about the project</p>
+                    <p className="caption-text">Things to say about the project</p>
                 </div>
             </div>
             {side_projects_json_data.map(project => {
@@ -28,12 +28,11 @@ const SideProjectsSection = () => {
                     <div key={"id"} className="project-container">
                         <h4>{project.title}</h4>
                         <h5 className="project-subtitle">{project.subtitle}</h5>
-                        <h4>{project.caption}</h4>
                         <div className="image-container">
                             <img></img>
                         </div>
                         <div className="project-caption-container">
-
+                            <p className="caption-text">{project.caption}</p>
                         </div>
                     </div>
                 );

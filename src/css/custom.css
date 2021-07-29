@@ -94,6 +94,11 @@ button:hover {
     border-width: 2px;
 }
 
+.caption-text {
+    color: black;
+    font-size: 7px;
+}
+
 .image-container {
     /* background-color: red; */
     /* width: 250px; */
