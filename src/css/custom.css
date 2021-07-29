@@ -79,11 +79,29 @@ button:hover {
     /* border-radius: 4%; */
 }
 
+.project-subtitle {
+    color:rgb(59, 92, 107)
+}
+
+.project-caption-container {
+    /* background-color: blue; */
+    width: 254px;
+    height: 60px;
+    margin-left: 5.5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    border:black solid;
+    border-width: 2px;
+}
+
 .image-container {
-    background-color: red;
+    /* background-color: red; */
     /* width: 250px; */
     width: 90%;
     height: 60%;
     margin-left: 5.3%;
     margin-top: 10%;
+    border-radius: 5px;
+    border: black solid;
+    border-width: 2px;
 }
