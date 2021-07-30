@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 const SideProjectsSection = () => {
     const [style, setStyle] = useState({display: 'none'});
-    
+
     const side_projects_json_data = [
         {
             "title": "Stews Bot",
@@ -59,16 +59,6 @@ const SideProjectsSection = () => {
     return (
         <div className="side-projects-container">
             <h1>Side Projects</h1>
-            <div className="project-container">
-                <h4>Project 1</h4>
-                <h5 className="project-subtitle">subtitle</h5>
-                <div className="image-container">
-                    <img></img>
-                </div>
-                <div className="project-caption-container">
-                    <p className="caption-text">Things to say about the project</p>
-                </div>
-            </div>
             {side_projects_json_data.map(project => {
                 return (
                     <a onClick={()=> window.open(project.source, "_blank")}>
