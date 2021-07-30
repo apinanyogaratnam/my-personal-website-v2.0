@@ -30,7 +30,7 @@ const SideProjectsSection = () => {
                         <hr className="project-hr"/>
                         <h5 className="project-subtitle">{project.subtitle}</h5>
                         <div className="image-container">
-                            <img src={require("../images/" + project.image)} alt="discord-usage-image"/>
+                            <img src={require("../images/" + project.image).default} alt="discord-usage-image"/>
                         </div>
                         <div className="project-caption-container">
                             <p className="caption-text">{project.caption}</p>
