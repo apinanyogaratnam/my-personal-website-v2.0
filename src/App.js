@@ -13,7 +13,7 @@ function App() {
         <CarouselContainer className="carousel-container" id="carousel" /> 
         <SideProjectsSection />
         <AboutMe />
-        <hr />
+        <hr className="socials-hr-divider"/>
         <Socials />
         <p className="text">Copyright &copy; {currentYear}</p>
     </div>

@@ -25,7 +25,7 @@ p {
     align-items: center;
 }
 
-hr {
+.socials-hr-divider {
     display: block; 
     height: 1px;
     border: 0; 
@@ -79,6 +79,10 @@ button:hover {
     /* border-radius: 4%; */
 }
 
+.project-container:hover {
+    background-color: rgb(165, 165, 165);
+}
+
 .project-subtitle {
     color:rgb(59, 92, 107);
     font-size: 12px;
@@ -103,12 +107,14 @@ button:hover {
 }
 
 .project-hr {
-    margin-top: 10px;
-    margin-bottom: 2px;
+    margin-top: 20px;
+    margin-bottom: -15px;
     margin-left: 42px;
     width: 200px;
     border-color: steelblue;
-    height: 5px;
+    background-color: steelblue;
+    height: 50px;
+    border: 0;
 }
 
 .image-container {
@@ -127,4 +133,8 @@ button:hover {
 .image-object {
     width: 252px;
     height: 260px;
+}
+
+.project-links {
+
 }
