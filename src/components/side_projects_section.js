@@ -10,7 +10,7 @@ const SideProjectsSection = () => {
             "subtitle": "Discord Bot with ML capabilities",
             "image": "bot_image.png",
             "caption": "Synthesized a working discord bot in python for the school’s community computer science discord server. Leveraged the use of OpenAI’s API and TensorFlow packages to create/train models and allow users to use machine learning services to ask questions and receive answers in a relatively quick amount of time.",
-            "source": "https://github.com/apinanyogaratnam/Stews-Bot"
+            "source": "https://github.com/apinanyogaratnam/stews-bot"
         },
         {
             "title": "Journal My Life",
@@ -76,7 +76,7 @@ const SideProjectsSection = () => {
             </div>
             <div>
                 <Link to="About">
-                    <RiArrowDownSLine className="icon" size="2em"></RiArrowDownSLine>
+                    <RiArrowDownSLine className="icon to-about-arrow" size="2em"></RiArrowDownSLine>
                 </Link>
             </div>
         </div>
