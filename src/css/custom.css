@@ -49,12 +49,24 @@ p {
 button {
     color: black;
     border-radius: 20px;
+    background-color: rgb(87, 161, 221);
+}
+
+button:hover {
+    color: black;
+    border-radius: 20px;
+    background-color: steelblue;
+}
+
+.resume-button-design {
+    color: black;
+    border-radius: 20px;
     width: 100px;
     height: 40px;
     background-color: rgb(87, 161, 221);
 }
 
-button:hover {
+.resume-button-design:hover {
     color: black;
     border-radius: 20px;
     width: 100px;
@@ -67,6 +79,7 @@ button:hover {
     height: 1080px;
     /* margin-top: 30px; */
     margin-top: 2.1%;
+    margin-bottom: -200px;
 }
 
 .project-container {
@@ -74,14 +87,18 @@ button:hover {
     height: 46%;
     background-color: azure;
     margin-top: 7%;
-    margin-left: 7.5%;
+    margin-left: 11%;
     border-radius: 15px;
     margin-right: -40px;
     /* border-radius: 4%; */
 }
 
 .project-container:hover {
-    background-color: rgb(165, 165, 165);
+    opacity: 0.4;
+}
+
+.project-title {
+    margin-top: 20px;
 }
 
 .project-subtitle {

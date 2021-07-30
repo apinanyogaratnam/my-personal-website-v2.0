@@ -31,35 +31,35 @@ const SideProjectsSection = () => {
         const [style, setStyle] = useState({display: 'none'});
 
         return (
-            <a onClick={()=> window.open(project.source, "_blank")}>
-                <div key={"id"} className="project-container"
-                    onMouseEnter={e => {
-                        setStyle({
-                            position: 'absolute',
-                            top: '50%',
-                            marginLeft: '25px',
-                            color: 'steelblue'
-                        })
-                    }}
-                    onMouseLeave={e => {
-                        setStyle({display: 'none'})
-                    }}
-                >
-                    <h4>{project.title}</h4>
-                    <h5 className="project-subtitle">{project.subtitle}</h5>
-                    <hr className="project-hr"/>
-                    <div className="image-container">
-                        <img className="image-object" src={require("../images/" + project.image).default} alt="discord-usage-image"/>
-                        <h4 style={style}>View Source Code</h4>
-                    </div>
-                    <div className="project-caption-container">
-                        <p className="caption-text">{project.caption}</p>
-                    </div>
-                    <div className="project-links">
-                        {/* <a href={project.source}>Source Code</a> */}
-                    </div>
+            <div key={"id"} className="project-container"
+                onMouseEnter={e => {
+                    setStyle({
+                        position: 'absolute',
+                        top: '50%',
+                        marginLeft: '-100px',
+                        width: '200px',
+                        color: 'black',
+                        filter: 'brightness(150%)'
+                    })
+                }}
+                onMouseLeave={e => {
+                    setStyle({display: 'none'})
+                }}
+            >
+                <h4 className="project-title">{project.title}</h4>
+                <h5 className="project-subtitle">{project.subtitle}</h5>
+                <hr className="project-hr"/>
+                <div className="image-container">
+                    <img className="image-object" src={require("../images/" + project.image).default} alt="discord-usage-image"/>
+                    <button style={style} onClick={()=> window.open(project.source, "_blank")}>View</button>
                 </div>
-            </a>
+                <div className="project-caption-container">
+                    <p className="caption-text">{project.caption}</p>
+                </div>
+                <div className="project-links">
+                    {/* <a href={project.source}>Source Code</a> */}
+                </div>
+            </div>
         );
     }
 
