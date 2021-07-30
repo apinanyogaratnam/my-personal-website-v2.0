@@ -121,4 +121,10 @@ button:hover {
     border-radius: 5px;
     border: black solid;
     border-width: 2px;
+    overflow: hidden;
+}
+
+.image-object {
+    width: 252px;
+    height: 260px;
 }
