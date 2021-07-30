@@ -12,11 +12,18 @@ const SideProjectsSection = () => {
             "source": "https://github.com/apinanyogaratnam/Stews-Bot"
         },
         {
-            "title": "Stews Bot",
-            "subtitle": "Discord Bot with ML capabilities",
-            "image": "bot_image.png",
-            "caption": "Synthesized a working discord bot in python for the school’s community computer science discord server. Leveraged the use of OpenAI’s API and TensorFlow packages to create/train models and allow users to use machine learning services to ask questions and receive answers in a relatively quick amount of time.",
-            "source": "https://github.com/apinanyogaratnam/Stews-Bot"
+            "title": "Journal My Life",
+            "subtitle": "Full Stack Web Application",
+            "image": "journalmylifemainpage.png",
+            "caption": "Constructed a fully functional Web application which allows users to create a journal, view all public journals created, view theirraw data, and allowed users to view journals either using Google O-Authentication or browse anonymously. This was built all within a week. The front-end was built using React.js. The back-end API was built using Python and Flask.",
+            "source": "https://github.com/apinanyogaratnam/journal-my-life"
+        },
+        {
+            "title": "Image Compression Tool",
+            "subtitle": "Image manipulator/filterer",
+            "image": "imagecompressiontool.png",
+            "caption": "Implemented using python to compress several image extensions by analyzing the pixel structure of the image and construct a new layered image without changing the overall composition of the image.",
+            "source": "https://github.com/apinanyogaratnam/image-compression-tool"
         }
     ]
 
@@ -31,7 +38,7 @@ const SideProjectsSection = () => {
                             position: 'absolute',
                             top: '50%',
                             marginLeft: '25px',
-                            color: 'white'
+                            color: 'steelblue'
                         })
                     }}
                     onMouseLeave={e => {
