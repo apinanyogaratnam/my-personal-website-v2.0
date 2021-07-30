@@ -20,7 +20,7 @@ const SideProjectsSection = () => {
         }
     ]
 
-    const Item = ({ project }) => {
+    const Project = ({ project }) => {
         const [style, setStyle] = useState({display: 'none'});
 
         return (
@@ -61,7 +61,7 @@ const SideProjectsSection = () => {
             <h1>Side Projects</h1>
             {side_projects_json_data.map(project => {
                 return (
-                    <Item project={project} />
+                    <Project project={project} />
                 );
             })}
         </div>
