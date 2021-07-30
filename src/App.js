@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
         <MainPage />
-        <CarouselContainer className="carousel-container" id="carousel" /> 
-        <SideProjectsSection />
+        {/* <CarouselContainer className="carousel-container" />  */}
+        <SideProjectsSection id="carousel"/>
         <AboutMe />
         <hr className="socials-hr-divider"/>
         <Socials />

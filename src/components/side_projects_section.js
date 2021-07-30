@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { RiArrowDownSLine, Link } from '../imports';
 
 const SideProjectsSection = () => {
     const [style, setStyle] = useState({display: 'none'});
@@ -64,13 +65,20 @@ const SideProjectsSection = () => {
     }
 
     return (
-        <div className="side-projects-container">
-            <h1>Side Projects</h1>
-            {side_projects_json_data.map(project => {
-                return (
-                    <Project project={project} />
-                );
-            })}
+        <div>
+            <div className="side-projects-container" id="carousel">
+                <h1>Side Projects</h1>
+                {side_projects_json_data.map(project => {
+                    return (
+                        <Project project={project} />
+                    );
+                })}
+            </div>
+            <div>
+                <Link to="About">
+                    <RiArrowDownSLine className="icon" size="2em"></RiArrowDownSLine>
+                </Link>
+            </div>
         </div>
     );
 };
