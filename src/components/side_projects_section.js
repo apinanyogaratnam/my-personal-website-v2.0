@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const SideProjectsSection = () => {
+    const [style, setStyle] = useState({display: 'none'});
+
     const side_projects_json_data = [
         {
             "title": "Stews Bot",
@@ -27,12 +29,24 @@ const SideProjectsSection = () => {
             {side_projects_json_data.map(project => {
                 return (
                     <a onClick={()=> window.open(project.source, "_blank")}>
-                        <div key={"id"} className="project-container">
+                        <div key={"id"} className="project-container"
+                            onMouseEnter={e => {
+                                setStyle({
+                                    position: 'absolute',
+                                    top: '50%',
+                                    left: '50%'
+                                })
+                            }}
+                            onMouseLeave={e => {
+                                setStyle({display: 'none'})
+                            }}
+                        >
                             <h4>{project.title}</h4>
                             <h5 className="project-subtitle">{project.subtitle}</h5>
                             <hr className="project-hr"/>
                             <div className="image-container">
                                 <img className="image-object" src={require("../images/" + project.image).default} alt="discord-usage-image"/>
+                                <h4 style={style}>View Source Code</h4>
                             </div>
                             <div className="project-caption-container">
                                 <p className="caption-text">{project.caption}</p>
