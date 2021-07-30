@@ -34,7 +34,8 @@ const SideProjectsSection = () => {
                                 setStyle({
                                     position: 'absolute',
                                     top: '50%',
-                                    left: '50%'
+                                    marginLeft: '25px',
+                                    color: 'white'
                                 })
                             }}
                             onMouseLeave={e => {
@@ -52,7 +53,7 @@ const SideProjectsSection = () => {
                                 <p className="caption-text">{project.caption}</p>
                             </div>
                             <div className="project-links">
-                                <a href={project.source}>Source Code</a>
+                                {/* <a href={project.source}>Source Code</a> */}
                             </div>
                         </div>
                     </a>

@@ -129,6 +129,7 @@ button:hover {
     border-width: 2px;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 .image-object {
