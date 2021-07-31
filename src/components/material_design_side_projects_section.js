@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/material_design_side_projects.css';
+import '../css/material_design_side_projects.scss';
 import data from './data/data';
 import Card from './card'
 
@@ -15,6 +15,7 @@ class MaterialDesignSideProjectsSection extends Component {
     
     nextProperty = () => {
         const newIndex = this.state.property.index + 1;
+        // add conditional for infinite cards
         this.setState({
             property: data.properties[newIndex]
         })
@@ -22,6 +23,7 @@ class MaterialDesignSideProjectsSection extends Component {
 
     prevProperty = () => {
         const newIndex = this.state.property.index-1;
+        // add conditional for infinite cards
         this.setState({
             property: data.properties[newIndex]
         })
@@ -33,17 +35,20 @@ class MaterialDesignSideProjectsSection extends Component {
         return (
             <div className="personal-projects-container">
                 <button
-                    onClick={() => this.nextProperty()}
-                    disabled={property.index === data.properties.length-1}
-                >Next</button>
-                <button
                     onClick={() => this.prevProperty()}
                     disabled={property.index === 0}
                 >Prev</button>
+                <button
+                    onClick={() => this.nextProperty()}
+                    disabled={property.index === data.properties.length-1}
+                >Next</button>
 
                 <section>
-                    .cards-slider
-                    <Card property={property} />
+                    <div className="card-slider">
+                        <div className="cards-slider-wrapper">
+                            <Card property={property} />
+                        </div>
+                    </div>
                 </section>
             </div>
         );
