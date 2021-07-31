@@ -46,7 +46,9 @@ class MaterialDesignSideProjectsSection extends Component {
                 <section>
                     <div className="card-slider">
                         <div className="cards-slider-wrapper">
-                            <Card property={property} />
+                            {
+                            properties.map(property => <Card key={property._id} property={property} />)
+                            }
                         </div>
                     </div>
                 </section>
