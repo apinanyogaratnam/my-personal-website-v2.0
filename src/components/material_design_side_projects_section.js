@@ -42,6 +42,7 @@ class MaterialDesignSideProjectsSection extends Component {
                 >Prev</button>
 
                 <section>
+                    .cards-slider
                     <Card property={property} />
                 </section>
             </div>
