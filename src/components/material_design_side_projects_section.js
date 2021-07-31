@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import '../css/material_design_side_projects.css'
+import React, { Component } from 'react';
+import '../css/material_design_side_projects.css';
+import data from './data/data';
+import Card from './card'
 
 class MaterialDesignSideProjectsSection extends Component {
 
@@ -38,6 +40,10 @@ class MaterialDesignSideProjectsSection extends Component {
                     onClick={() => this.prevProperty()}
                     disabled={property.index === 0}
                 >Prev</button>
+
+                <section>
+                    <Card property={property} />
+                </section>
             </div>
         );
     }
