@@ -6,10 +6,6 @@
     margin-bottom: -360px;
 }
 
-.cards-container {
-    margin-left: 300px;
-}
-
 .card {
     width: 400px;
     height: 400px;
@@ -19,10 +15,13 @@
     margin-bottom: 10px;
 }
 
+
+
 .cards-slider-wrapper {
     display: flex;
     position: absolute;
     background-color: steelblue;
+    margin-left: -30px;
     .card {
         flex: 1;
         // min-width: 200px;
