@@ -34,6 +34,7 @@ class MaterialDesignSideProjectsSection extends Component {
 
         return (
             <div className="personal-projects-container">
+                <h1>Personal Projects</h1>
                 <button
                     onClick={() => this.prevProperty()}
                     disabled={property.index === 0}
