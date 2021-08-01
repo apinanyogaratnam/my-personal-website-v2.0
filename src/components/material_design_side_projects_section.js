@@ -43,9 +43,11 @@ class MaterialDesignSideProjectsSection extends Component {
                     disabled={property.index === data.properties.length-1}
                 >Next</button>
 
-                <section>
+                <section className="cards-container">
                     <div className="card-slider">
-                        <div className="cards-slider-wrapper">
+                        <div className="cards-slider-wrapper" style={{
+                            transform: `translateX(-${property.index*(100/properties.length)}%)`
+                        }}>
                             {
                             properties.map(property => <Card key={property._id} property={property} />)
                             }
