@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
         <MainPage />
-        {/* <CarouselContainer className="carousel-container" />  */}
+        <CarouselContainer className="carousel-container" /> 
         <SideProjectsSection id="carousel"/>
         <MaterialDesignSideProjectsSection />
         <AboutMe />

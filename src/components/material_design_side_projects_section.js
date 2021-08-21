@@ -50,7 +50,7 @@ class MaterialDesignSideProjectsSection extends Component {
                             transform: `translateX(-${property.index*(100/properties.length)}%)`
                         }}>
                             {
-                            properties.map(property => <Card key={property._id} property={property} />)
+                                properties.map(property => <Card key={property._id} property={property} />)
                             }
                         </div>
                     </div>

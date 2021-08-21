@@ -15,12 +15,16 @@
     margin-bottom: 10px;
 }
 
-
+.card:hover {
+    cursor: pointer;
+    cursor: -moz-grab;
+    opacity: 20%;
+}
 
 .cards-slider-wrapper {
     display: flex;
     position: absolute;
-    background-color: steelblue;
+    background-color: black;
     margin-left: -30px;
     .card {
         flex: 1;
@@ -53,7 +57,9 @@
     background-color: blue;
     margin: auto;
     border: 3px solid steelblue;
-    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    object-fit: scale-down;
 }
 
 .card-description {
