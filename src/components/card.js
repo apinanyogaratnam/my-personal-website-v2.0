@@ -6,7 +6,7 @@ const Card = ({ property }) => {
 
     return (
         <div id={`card-${index}`} className="card">
-            <img className="card-image" src={picture} alt="image goes here" />
+            <img className="card-image" src={require(picture).default} alt="image goes here" />
             <div className="details">
                 <h4>{title}</h4>
                 <h6>{subtitle}</h6>

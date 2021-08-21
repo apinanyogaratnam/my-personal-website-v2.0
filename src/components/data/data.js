@@ -7,7 +7,7 @@ const data = {
             "subtitle": "Discord Bot",
             "description": "A discord bot with Machine Learning Capabilities",
             "price": 134,
-            "picture": "../images/me1.png",
+            "picture": "assets/me.png",
             "city": "singer"
         },
         {
@@ -15,7 +15,7 @@ const data = {
             "index": 1,
             "title": "Title 2",
             "price": 134,
-            "picture": "",
+            "picture": "assets/me.png",
             "city": "toronto"
         },
         {
@@ -23,7 +23,7 @@ const data = {
             "index": 2,
             "title": "Title 3",
             "price": 134,
-            "picture": "",
+            "picture": "assets/me.png",
             "city": "Scarborough"
         },
         {
@@ -31,7 +31,7 @@ const data = {
             "index": 3,
             "title": "Title 4",
             "price": 134,
-            "picture": "",
+            "picture": "assets/me.png",
             "city": "york"
         },
         {
@@ -39,7 +39,7 @@ const data = {
             "index": 4,
             "title": "Title 5",
             "price": 134,
-            "picture": "",
+            "picture": "assets/me.png",
             "city": "toronto"
         }
     ]
