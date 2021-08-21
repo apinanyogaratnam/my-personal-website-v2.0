@@ -36,10 +36,12 @@ class MaterialDesignSideProjectsSection extends Component {
             <div className="personal-projects-container">
                 <h1>Personal Projects</h1>
                 <button
+                    className="prev-button"
                     onClick={() => this.prevProperty()}
                     disabled={property.index === 0}
                 >Prev</button>
                 <button
+                    className="next-button"
                     onClick={() => this.nextProperty()}
                     disabled={property.index === data.properties.length-1}
                 >Next</button>
