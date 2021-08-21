@@ -1,11 +1,11 @@
 const data = {
     "properties": [
         {
-        "_id": "1",
-        "index": 0,
-        "price": 134,
-        "picture": "",
-        "city": "singer"
+            "_id": "1",
+            "index": 0,
+            "price": 134,
+            "picture": "",
+            "city": "singer"
         },
         {
             "_id": "2",
@@ -27,6 +27,13 @@ const data = {
             "price": 134,
             "picture": "",
             "city": "york"
+        },
+        {
+            "_id": "5",
+            "index": 4,
+            "price": 134,
+            "picture": "",
+            "city": "toronto"
         }
     ]
 }
