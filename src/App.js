@@ -11,8 +11,8 @@ function App() {
     <div className="App">
         <MainPage />
         <CarouselContainer className="carousel-container" /> 
-        <SideProjectsSection id="carousel"/>
-        <MaterialDesignSideProjectsSection />
+        {/* <SideProjectsSection id="carousel"/> */}
+        {/* <MaterialDesignSideProjectsSection /> */}
         <AboutMe />
         <hr className="socials-hr-divider"/>
         <Socials />

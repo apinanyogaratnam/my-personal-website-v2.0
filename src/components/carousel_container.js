@@ -87,6 +87,22 @@ const CarouselContainer = () => {
                     <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
+
+                {/* Sixth Label */}
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={require("../images/landpeer_image1.jpg").default}
+                    alt="Fourth slide"
+                    />
+
+                    <Carousel.Caption>
+                    <a href="https://github.com/apinanyogaratnam/landpeer" target="_blank" rel="noopener noreferrer">
+                        <h3>View Source code on GitHub</h3>
+                    </a>
+                    <Link to="About"> <RiArrowDownSLine className="icon" size="2em" /> </Link> 
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
         </div>
     )
