@@ -1,8 +1,7 @@
 # My Personal Website v2.0
 
 Links:
-# `https://apinanyogaratnam.github.io/my-personal-website-v2.0`
-# `https://apinanyogaratnam-website.herokuapp.com/`
+[apinan's website](https://apinanyogaratnam.github.io/my-personal-website-v2.0)
 
 In the project directory, you can run:
 
