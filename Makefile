@@ -6,3 +6,6 @@ build:
 
 run:
 	docker run -p 3000:3000 ${IMAGE}
+
+open:
+	open http://localhost:3000
